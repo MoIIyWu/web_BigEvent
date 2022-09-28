@@ -1,9 +1,6 @@
 .layui-footer {
     text-align: center;
-}
-
-.layui-nav {
-    margin-right: 8px;
+    font-size: 12px;
 }
 
 .iconfont {
@@ -58,4 +55,8 @@ a {
     position: relative;
     top: 4px;
     margin-right: 10px;
+}
+
+.layui-nav-item a {
+    font-size: 14px;
 }

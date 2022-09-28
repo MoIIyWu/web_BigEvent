@@ -37,7 +37,7 @@ $(function () {
             },
             success(res) {
                 if (res.status !== 0) return layer.msg(res.message)
-                layer.msg('注册成功，请登录')    //123asdfgh 123456
+                layer.msg('注册成功，请登录')    //Q123456 Q123456
                 $('#link_login').click()
             }
         })
